@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.Title{width: 50%;height: 10px;color: white;
+}
+.Title ul button{padding-top: 10px;font-size: 60px;font-weight: bold;color:white;text-transform: uppercase;
+background: linear-gradient(57deg,#00c6a7,#1e4d92);}
+
+.Title ul button:hover{
+	background: linear-gradient(57deg,#00c6a7,#1e4d92,#00c6a7);
+}
+
+
+	body{background: url("images/26174.png")center no-repeat;
+	height: 100vh;
+	background-size: cover;
+	}
+.menudropdown{padding: 100px;
+	width: 90%;height: 100px;margin: 0px auto;
+}
+
+.menudropdown ul{
+padding: 0px;
+
+}
+.Title{
+	margin-left: 400px;
+}
+
+.menudropdown ul li{
+	float: left;
+	background: linear-gradient(57deg,#00c6a7,#1e4d92,#00c6a7);
+	color: black;
+	width: 250px;
+	height: 50px;	
+	line-height: 50px;
+	font-size: 20px;
+	list-style: none;
+	opacity: 0.6;
+}
+.menudropdown ul li:hover{
+	background: linear-gradient(57deg,#00c6a7,#1e4d92,#00c6a7);
+}
+
+.menudropdown ul li ul{
+	display: none;
+}
+.menudropdown ul li:hover>ul{
+	display: block;
+}
+.menudropdown ul li:hover{
+	background-color: #6B6B6B ;
+	opacity: 0.9;
+}
+
+.menudropdown ul li ul li{
+	position: relative;
+}
+.menudropdown ul li ul li ul{
+	position: absolute;
+	left: 200px;
+	top: 50px;
+}
+
+</style>
+</head>
+<body>
+	<div class="Title">
+		<ul>
+			<button>WELCOME</button>
+		</ul>
+	</div>
+
+<div class="menudropdown">
+	<ul>
+		<li>HOME
+<ul>
+	<li>TECHNOLOGY</li>
+	<li>STARTUPS </li>
+</ul>
+</li>
+		<li>SERVICES
+			<ul>
+				<li>IDEAS
+					<ul>
+						<li>PRO</li>
+						<li>your's</li>
+					</ul></li>	
+			</ul></li>
+		<li>ABOUT US
+			<ul>
+				<li>
+					<a href="About us.html">Click Here</a>
+				</li>
+			
+			</ul></li>
+		<li>CONTACT US
+			<ul>
+				<li>Arsalan Javed
+					<ul>
+						<li>+92 3315497500</li>
+					</ul></li>
+			</ul></li>
+
+	</ul>
+</div>
+
+</body>
+</html>
